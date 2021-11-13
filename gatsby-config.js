@@ -33,12 +33,16 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Linkdin`,
+            url: `https://www.linkedin.com/in/vjtomvictor/`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `Instagram`,
+            url: `https://www.instagram.com/tomy_vithayathil`,
+          },
+          {
+            name: `GitHub`,
+            url: `https://github.com/Tomvictor`,
           },
         ],
       },
