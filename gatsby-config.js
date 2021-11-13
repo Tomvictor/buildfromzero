@@ -33,7 +33,7 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Linkdin`,
+            name: `Linkedin`,
             url: `https://www.linkedin.com/in/vjtomvictor/`,
           },
           {
