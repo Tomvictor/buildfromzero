@@ -1,13 +1,13 @@
 ---
 title: "How to implement command design pattern in python?"
 description: "Implementation of command design pattern in python"
-date: 2021-12-8
+date: 2021-12-08
 tags:
   - Tutorial
   - Python
-  - Design-Pattern
+  - Pattern
 slug: "/command-design-pattern-in-python"
-canonicalUrl: "https://buildfromzero.com/command-design-pattern-in-python
+canonicalUrl: "https://buildfromzero.com/command-design-pattern-in-python"
 ---
 
 
@@ -28,8 +28,8 @@ class CalcCmdAbs(metaclass=abc.ABCMeta):
 
     def execute(self):
         raise NotImplemented()
-
 ```
+
 
 
 ```python:title=src/commands.py
@@ -114,6 +114,5 @@ class TestCase(unittest.TestCase):
     def test_subtraction(self):
         command = parse_commands(self.commands, "subtract", 1, 1)
         self.assertEqual(command.execute(), 0, "Subtraction fail")
-
 
 ```
